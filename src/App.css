@@ -86,7 +86,7 @@ h3 {
   justify-content: space-between;
   margin: 10px;
   background-color: white;
-  margin: 50px;
+  margin: 50px 50px 30px 50px;
 }
 
 .grid-1 {
@@ -107,6 +107,7 @@ h3 {
 
 section div h3 {
   color: #4b4b4b;
+  padding-top: 25px;
 }
 
 section div p {
@@ -128,10 +129,52 @@ section div p {
   justify-content: space-between;
 }
 
+.social {
+  text-align: center;
+}
+
 .social-link {
   display: inline-block;
   width: 30px;
   height: 30px;
   margin: 0 10px;
-  background-size: 50px 50px;
+  background-size: 30px 30px;
+}
+
+.social-link.twitter {
+  background-image: url("./twitter.svg");
+}
+.social-link.facebook {
+  background-image: url("./facebook.svg");
+}
+
+.social-link.instagram {
+  background-image: url("./instagram.svg");
+}
+
+.form-email input {
+  border-color: gray;
+  border-style: solid;
+  border-radius: 8px;
+  padding: 10px 20px 10px 25px;
+  background-image: url("./envelope.svg");
+  background-size: 15px 20px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+}
+
+.form-email button {
+  display: block;
+  background: transparent;
+  color: white;
+  padding: 10px 0;
+  width: 100px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+section form p {
+  margin: 0px;
+  padding-bottom: 15px;
 }

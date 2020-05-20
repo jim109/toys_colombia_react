@@ -4,6 +4,9 @@ import Head from "./head.js";
 import HeadBanner from "./headBanner.js";
 import Hero from "./hero.js";
 import Sales from "./sales.js";
+import Publicity from "./publicity.js";
+import Information from "./information.js";
+import Contact from "./contact.js";
 
 function App() {
   return (
@@ -12,6 +15,9 @@ function App() {
       <Head />
       <Hero />
       <Sales />
+      <Publicity />
+      <Information />
+      <Contact />
     </>
   );
 }
